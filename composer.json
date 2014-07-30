@@ -1,0 +1,34 @@
+{
+    "name": "trifs/di",
+    "description": "A simple dependency injection container",
+    "keywords": [
+        "di",
+        "dependency injection",
+        "container"
+    ],
+    "homepage": "https://github.com/3fs/php-di",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Kuridža",
+            "email": "david@3fs.si"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "trifs\\DI\\": "src/trifs/DI/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "trifs\\DI\\Tests\\": "tests/trifs/DI/"
+        }
+    }
+}
